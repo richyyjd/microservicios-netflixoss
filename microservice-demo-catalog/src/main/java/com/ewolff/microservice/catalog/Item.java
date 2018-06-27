@@ -25,7 +25,7 @@ public class Item {
 	public Item() {
 		super();
 		id = 0l;
-		System.out.println(“Added by me in Item ”);
+		System.out.println("Added by me in Item");
 	}
 
 	public Item(String name, double price) {
