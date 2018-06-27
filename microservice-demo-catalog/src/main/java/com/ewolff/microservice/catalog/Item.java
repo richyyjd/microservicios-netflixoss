@@ -25,6 +25,7 @@ public class Item {
 	public Item() {
 		super();
 		id = 0l;
+		System.out.println("Added by me in Item");
 	}
 
 	public Item(String name, double price) {
@@ -38,7 +39,7 @@ public class Item {
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.name = name;	
 	}
 
 	public double getPrice() {
